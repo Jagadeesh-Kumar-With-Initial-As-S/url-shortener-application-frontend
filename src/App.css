@@ -4,6 +4,11 @@ body{
   background-size: cover;
 }
 
+advertisement{
+  font-size:xx-small;
+  color:red;
+}
+
 /* width*/
 ::-webkit-scrollbar {
   width: 5px;
