@@ -40,7 +40,7 @@ function Register() {
       try {
         const register = await axios.post(`${config.api}/register`, values);
         alert(register.data.message);
-        navigate("/");
+        navigate("/activate-account");
       } catch (error) {
         console.log(error);
       }

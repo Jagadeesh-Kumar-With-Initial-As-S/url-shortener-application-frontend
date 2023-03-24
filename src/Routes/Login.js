@@ -34,7 +34,8 @@ function Login() {
           } else {
             alert(
               "Your account is not activated. Please Activate your account"
-            );
+            );            
+          navigate("/activate-account");
           }
         } else {
           alert("User not found");
